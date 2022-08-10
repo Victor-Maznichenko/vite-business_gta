@@ -1,0 +1,32 @@
+@use "unitExample" as *
+
+*,*::after,*::before
+    box-sizing: border-box
+
+p, h1, h2, h3, h4, h5, h6
+    margin: 0
+    padding: 0
+a
+    color: inherit
+
+body
+    font-family: 'Gotham Pro', sans-serif
+    overflow: hidden
+    font-size: unit(12)
+    color: white
+    line-height: 100%
+
+button
+    background-color: transparent
+    cursor: pointer
+ul,li
+    margin: 0
+    padding: 0
+    list-style: none
+input
+    padding: 0
+    outline: none
+
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration
+    display: none
+
