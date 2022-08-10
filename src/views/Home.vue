@@ -1,5 +1,11 @@
 <template>
     <Header/>
+    Home
+    Home
+    Home
+    Home
+    Home
+    Home
 </template>
 
 <script>
